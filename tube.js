@@ -31,8 +31,8 @@ const categoryData = async (categoryId) => {
         console.log(card);
         const div = document.createElement('div');
         div.innerHTML = `
-        <div class="card w-96 bg-base-100 shadow-xl">
-        <figure><img src=${card.thumbnail}></figure>
+        <div class="card w-96 bg-base-100 shadow-xl mt-4">
+        <figure><img class="h-48 max-h-full" src=${card.thumbnail}></figure>
         <div class="card-body">
         <div class = "card-footer flex justify-between mt-8">
         <div class = "flex">
